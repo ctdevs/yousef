@@ -6,7 +6,8 @@ Deck::Deck()
 {
     // 11 = Jack; 12 = Queen; 13 = King; 14 = Ace
     int ranks[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
-    string suits[] = {"Hearts", "Diamonds", "Spades", "Clubs"};
+    // 1 = Spades; 2 = Clubs; 3 = Diamonds; 4 = Hearts
+    int suits[] = {1, 2, 3, 4};
     currentCard = 0;
     for (int count = 0; count < SIZE; count++)
     {

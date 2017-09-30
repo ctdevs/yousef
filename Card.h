@@ -9,7 +9,7 @@ class Card
 {
   private:
     int rank;
-    string suit;
+    int suit;
 
   public:
     Card()
@@ -27,7 +27,7 @@ class Card
         rank = rank;
     }
 
-    void setSuit(string suit)
+    void setSuit(int suit)
     {
         suit = suit;
     }
@@ -37,7 +37,7 @@ class Card
         return rank;
     }
 
-    string getSuit()
+    int getSuit()
     {
         return suit;
     }
