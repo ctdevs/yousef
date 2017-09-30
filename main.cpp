@@ -1,18 +1,17 @@
 #include <iostream>
-#include "classes.h"
-#include "SDL_Plotter.h"
-#include <stack>
-#include <queue>
+#include <string>
+// #include "classes.h"
+// #include "SDL_Plotter.h"
+// #include <stack>
+// #include <queue>
+#include "Deck.h"
 
 using namespace std;
 
-int main(int argc, char ** argv)
+int main(int argc, char **argv)
 {
-
-    stack <card> myStack;
-    queue<card> myQueue;
-    
-    
-    
+    // stack<Card> myStack;
+    // queue<Card> myQueue;
+    cout << "=== Starting game ===" << endl;
+    Deck a;
 }
-

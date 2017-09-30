@@ -14,57 +14,25 @@
 #include <vector>
 using namespace std;
 
-class card{
-    private:
-        int number;
-        string suit;
+class Player
+{
+  private:
+    vector<Card> hand;
+    int score;
 
-    public:
-    
-        card()
-        {
-        }
-        void setNumber(int n)
-        {
-            number = n;
-            
-        }
-        void setSuit (string g)
-        {
-            suit = g;
-        }
-        int getNumber()
-        {
-        return number;
-        }
-        string getSuit()
-        {
-            return suit;
-        }
-    
-    };
-class player{
-    private:
-        vector<card> hand;
-        int score;
-    public:
-    
-    
-    };
-class game
-    {
-    private:
-        
-        
-    public:
-    
-    };
-class round
-    {
-    private:
-        
-    public:
-    
-    };
+  public:
+};
+
+class Game
+{
+  private:
+  public:
+};
+
+class Round
+{
+  private:
+  public:
+};
 
 #endif /* classes_h */
