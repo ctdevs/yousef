@@ -11,14 +11,14 @@ using namespace std;
 
 class Deck
 {
-  private:
-    Card deck[SIZE];
-    int currentCard;
+private:
+  Card deck[SIZE];
+  int currentCard;
 
-  public:
-    Deck();
-    void shuffle();
-    Card dealCard();
+public:
+  Deck();
+  void shuffle();
+  Card dealCard();
 };
 
 #endif

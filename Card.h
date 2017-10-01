@@ -10,6 +10,7 @@ class Card
   private:
     int rank;
     int suit;
+    int value;
 
   public:
     Card()
@@ -22,14 +23,19 @@ class Card
     //     suit = suit;
     // }
 
-    void setRank(int rank)
+    void setRank(int r)
     {
-        rank = rank;
+        rank = r;
     }
 
-    void setSuit(int suit)
+    void setSuit(int s)
     {
-        suit = suit;
+        suit = s;
+    }
+
+    void setValue(int v)
+    {
+        value = v;
     }
 
     int getRank()
@@ -40,6 +46,32 @@ class Card
     int getSuit()
     {
         return suit;
+    }
+
+    int getValue()
+    {
+        return value;
+    }
+
+    string getSuitName(int i)
+    {
+        string name;
+        switch (i)
+        {
+        case 1:
+            name = "Spade";
+            break;
+        case 2:
+            name = "Clubs";
+            break;
+        case 3:
+            name = "Diamonds";
+            break;
+        case 4:
+            name = "Hearts";
+            break;
+        }
+        return name;
     }
 };
 
